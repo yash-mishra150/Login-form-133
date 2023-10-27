@@ -1,5 +1,6 @@
-import { Children, reverse } from "react";
+import { Children } from "react";
 import Card from "./components/Card";
+import RegisterCard from "./components/RegisterCard";
 import LoginForm from "./components/LoginForm";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -12,11 +13,7 @@ function App() {
           path="/"
           element={
             <>
-              <Card reverse={reverse}>
-                <section>
-                  
-                </section>
-              </Card>
+              <RegisterCard/>
             </>
           }
         ></Route>

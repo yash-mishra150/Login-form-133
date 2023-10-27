@@ -6,6 +6,10 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+main{
+  position: relative;
+  display: flex;
+}
 :root {
   background-repeat: no-repeat;
   background: linear-gradient(135deg, #43cbff, #9708cc);
@@ -16,7 +20,7 @@ body {
 .container {
   position: relative;
   top: 55px;
-  left: 146px;
+  left: 165px;
   height: 690px;
   width: 1200px;
   background-color: #fff;
@@ -24,6 +28,17 @@ body {
   border-color: black;
 }
 
+.container2 {
+  position: relative;
+  top: 55px;
+  justify-content: center;
+  height: 690px;
+  margin-left: 149px;
+  width: 1200px;
+  background-color: #fff;
+  border-radius: 20px;
+  border-color: black;
+}
 .med1 {
   position: relative;
   top: 20px;
@@ -46,6 +61,22 @@ body {
   left: 350px;
   width: 470px;
   height: 500px;
+  border: 1px solid #000000;
+  margin-left: 300px;
+  margin-bottom: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.login3 {
+  position: relative;
+  top: -50px;
+  left: 350px;
+  width: 490px;
+  height: 580px;
   border: 1px solid #000000;
   margin-left: 300px;
   margin-bottom: 200px;
@@ -152,6 +183,59 @@ form .input-box p {
   color: red;
 }
 
-form .input-box .link{
+form .input-box .link {
   text-decoration: none;
+}
+
+
+
+@media (max-width: 768px) {
+  .container {
+    top: 5vh;
+    padding: 10px;  
+    width: 700px;
+    top: 150px;
+    left: 80px;
+ 
+  }
+  .container2 {
+    top: 5vh;
+    padding: 10px;  
+    width: 650px;
+    top: 150px;
+    left: 50px;
+ 
+  }
+  
+  .med1 {
+    height: 0%;
+    width: 0%;
+  }
+  .med2 {
+    height: 0%;
+    width: 0%;
+  }
+  .login2 {
+    top: 60px;
+    left: -190px;
+  }
+  .login3 {
+    top: 60px;
+    left: -225px;
+  }
+}
+
+@media (max-width: 360px){
+  .container2 {
+    top: 5vh;
+    padding: 10px;  
+    width: 500px;
+    top: 150px;
+    left: 15px;
+  }
+  .login3{
+    top: 60px;
+    left: -290  px;
+  }
+
 }
