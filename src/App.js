@@ -12,9 +12,7 @@ function App() {
           exact
           path="/"
           element={
-            <section>
             <RegisterCard />
-            </section>
           }
         ></Route>
         <Route

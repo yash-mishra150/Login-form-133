@@ -1,6 +1,5 @@
 * {
   margin: 0;
-  padding: 0;
 }
 
 body {
@@ -9,7 +8,6 @@ body {
 main {
   position: relative;
   display: flex;
-  justify-content: center;
 }
 :root {
   background-repeat: no-repeat;
@@ -33,6 +31,7 @@ main {
   position: relative;
   top: 55px;
   left: 165px;
+  margin-right: 600px;
   height: 690px;
   width: 1200px;
   background-color: #fff;
@@ -74,6 +73,8 @@ main {
   position: relative;
   top: -55px;
   left: 350px;
+  margin: fixed;
+  margin-right: 300px;
   width: 490px;
   height: 580px;
   border: 1px solid #000000;
@@ -198,8 +199,9 @@ form .input-box .link {
     top: 5vh;
     padding: 10px;
     top: 150px;
-    width: 650px;
-    left: -100px;
+    width: 600px;
+    height: 790px;
+    left: 3px;
   }
 
   .med1 {
@@ -216,22 +218,10 @@ form .input-box .link {
   }
   .login3 {
     top: 60px;
-    left: -225px;
+    left: -297px;
     width: 590px;
     height: 680px;
   }
 }
 
-@media (max-width: 360px) {
-  .container2 {
-    top: 5vh;
-    padding: 10px;
-    width: 500px;
-    top: 150px;
-    left: 15px;
-  }
-  .login3 {
-    top: 60px;
-    left: -290 px;
-  }
-}
+
