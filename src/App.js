@@ -12,18 +12,16 @@ function App() {
           exact
           path="/"
           element={
-            <>
-              <RegisterCard/>
-            </>
+            <section>
+            <RegisterCard />
+            </section>
           }
         ></Route>
         <Route
           path="/login"
           element={
             <Card children={Children}>
-              <section>
                 <LoginForm />
-              </section>
             </Card>
           }
         />

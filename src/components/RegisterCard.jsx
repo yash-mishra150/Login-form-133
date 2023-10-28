@@ -5,13 +5,13 @@ import RegisterForm from "./RegisterForm";
 
 function RegisterCard({ reverse }) {
   return (
-    <div className="main">
       <div className="container2">
         <img src={logo} className="med1" alt="med+" />
         <img src={logo2} className="med2" alt="med_main_image" />
-        <RegisterForm />
+        <section>
+        <RegisterForm/>
+        </section>
       </div>
-    </div>
   );
 }
 
