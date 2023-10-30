@@ -71,13 +71,13 @@ main {
 .login3 {
   position: relative;
   top: -55px;
-  left: 350px;
+  /* left: 350px; */
   margin: fixed;
   margin-right: 300px;
   width: 490px;
   height: 580px;
   border: 1px solid #000000;
-  margin-left: 300px;
+  margin-left: 650px;
   margin-bottom: 200px;
   display: flex;
   align-items: center;
