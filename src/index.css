@@ -31,7 +31,6 @@ main {
   position: relative;
   top: 55px;
   left: 165px;
-  margin-right: 600px;
   height: 690px;
   width: 1200px;
   background-color: #fff;
@@ -177,8 +176,8 @@ form .input-box p {
 
 .error-message {
   position: relative;
-  top: 20px;
-  text-align: center;
+  top: 15px;
+  text-align: left;
   font-size: 17px;
   color: red;
 }
