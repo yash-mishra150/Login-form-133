@@ -71,13 +71,12 @@ main {
 .login3 {
   position: relative;
   top: -55px;
-  /* left: 350px; */
+  left: 650px;
   margin: fixed;
   margin-right: 300px;
   width: 490px;
   height: 580px;
   border: 1px solid #000000;
-  margin-left: 650px;
   margin-bottom: 200px;
   display: flex;
   align-items: center;
@@ -217,7 +216,7 @@ form .input-box .link {
   }
   .login3 {
     top: 60px;
-    left: -297px;
+    left: 5px;
     width: 590px;
     height: 680px;
   }
